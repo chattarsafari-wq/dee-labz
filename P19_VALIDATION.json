@@ -1,0 +1,57 @@
+{
+  "release": "P19 Final QA",
+  "status": "static_qa_passed_runtime_validation_blocked",
+  "php_lint": {
+    "files_checked": 169,
+    "failures": 0
+  },
+  "fresh_install": {
+    "status": "fixed_and_static_reviewed",
+    "runtime_execution": "blocked_by_missing_composer_and_db_driver"
+  },
+  "multi_tenant": {
+    "status": "reviewed",
+    "cross_tenant_policies": "present",
+    "api_key_lab_scope": "enforced",
+    "api_scope": "enforced"
+  },
+  "patient_to_report": {
+    "status": "static_reviewed",
+    "workflow_routes_present": true
+  },
+  "billing": {
+    "status": "static_reviewed",
+    "overpayment_guard": true
+  },
+  "qr": {
+    "status": "fixed",
+    "canonical_token": "verification_code"
+  },
+  "collection_center": {
+    "status": "fixed",
+    "late_dependency_migration": true
+  },
+  "patient_portal": {
+    "status": "fixed",
+    "report_scoped_via_booking_patient": true
+  },
+  "subscription": {
+    "status": "fixed",
+    "lifecycle": [
+      "subscribe",
+      "cancel",
+      "resume",
+      "renew"
+    ],
+    "access_middleware": true
+  },
+  "mobile_browser": {
+    "status": "static_responsive_audit",
+    "live_browser_execution": "blocked"
+  },
+  "production": {
+    "queue_webhooks": true,
+    "duplicate_backup_command": false,
+    "security_headers": true
+  }
+}

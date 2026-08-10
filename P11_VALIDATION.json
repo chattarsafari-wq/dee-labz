@@ -1,0 +1,8 @@
+{
+  "release": "P11",
+  "php_files_linted": 142,
+  "php_syntax_errors": 0,
+  "live_gateway_connected": false,
+  "gateway_webhooks_connected": false,
+  "invoice_billing_foundation": true
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "P8",
+  "name": "Runtime and E2E QA",
+  "status": "runtime_gate_prepared",
+  "static_validation": {
+    "php": "pending_execution_in_target_environment",
+    "shell": "pending_execution_in_target_environment"
+  },
+  "runtime": {
+    "executed_in_this_build_environment": false,
+    "reason": "Composer and MySQL runtime dependencies are unavailable in the patching environment"
+  },
+  "release_rule": "Do not mark production-ready until php artisan test, runtime-gate.sh, full E2E workflow, backup/restore and cross-tenant tests pass."
+}

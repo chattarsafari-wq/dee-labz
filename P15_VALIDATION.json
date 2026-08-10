@@ -1,0 +1,19 @@
+{
+  "release": "P15",
+  "php_files_linted": 197,
+  "php_syntax_errors": 0,
+  "inventory_movements": true,
+  "expiry_monitoring": true,
+  "audit_log_foundation": true,
+  "advanced_analytics": true,
+  "analytics_dimensions": [
+    "revenue",
+    "profit_cost",
+    "test_volume",
+    "collection_center_performance",
+    "doctor_referrals",
+    "branch_analytics"
+  ],
+  "date_range_filtering": true,
+  "operating_cost_capture": true
+}

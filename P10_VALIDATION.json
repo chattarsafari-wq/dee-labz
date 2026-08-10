@@ -1,0 +1,9 @@
+{
+  "release": "P10",
+  "scope": "SaaS foundation",
+  "php_files_linted": 135,
+  "php_syntax_errors": 0,
+  "payment_gateway": false,
+  "automated_recurring_billing": false,
+  "saas_super_admin": false
+}

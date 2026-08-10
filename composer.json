@@ -1,0 +1,37 @@
+{
+  "name": "deelabz/pathology-lab-saas",
+  "type": "project",
+  "description": "Dee Labz - Laravel pathology laboratory SaaS starter inspired by PathLab domain workflows.",
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^12.0",
+    "laravel/tinker": "^2.10",
+    "barryvdh/laravel-dompdf": "^3.1"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.23",
+    "phpunit/phpunit": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Database\\Factories\\": "database/factories/",
+      "Database\\Seeders\\": "database/seeders/"
+    }
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "@php artisan package:discover --ansi"
+    ],
+    "post-create-project-cmd": [
+      "@php artisan key:generate --ansi"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}

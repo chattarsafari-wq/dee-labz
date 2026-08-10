@@ -1,0 +1,11 @@
+{
+  "release": "P12",
+  "php_files_linted": 150,
+  "php_syntax_errors": 0,
+  "patient_login": true,
+  "patient_dashboard": true,
+  "patient_report_access": true,
+  "online_booking": false,
+  "online_payment": false,
+  "messaging_delivery": false
+}

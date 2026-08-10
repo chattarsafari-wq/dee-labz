@@ -1,0 +1,8 @@
+{
+  "phase":"P7",
+  "name":"External Integrations Foundation",
+  "status":"static_validated_runtime_pending",
+  "features":["HL7v2 ORU inbound","Analyzer tenant binding","Analyzer message audit","FHIR-shaped DiagnosticReport","FHIR-shaped Observation","SMS/WhatsApp provider config"],
+  "not_claimed":["vendor-specific analyzer certification","ASTM transport","MLLP server","production payment provider","production SMS/WhatsApp credentials","full FHIR server compliance"],
+  "runtime_required":["composer install","migrate:fresh --seed","HL7 fixture import","FHIR endpoint test","browser regression","multi-tenant analyzer penetration test"]
+}

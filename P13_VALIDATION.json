@@ -1,0 +1,9 @@
+{
+  "release": "P13",
+  "php_files_linted": 158,
+  "php_syntax_errors": 0,
+  "email_integration": true,
+  "sms_provider_adapter": true,
+  "whatsapp_provider_adapter": true,
+  "provider_credentials_configured": false
+}

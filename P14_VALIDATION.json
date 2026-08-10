@@ -1,0 +1,9 @@
+{
+  "release": "P14",
+  "php_files_linted": 173,
+  "php_syntax_errors": 0,
+  "quality_control": true,
+  "sample_tracking": true,
+  "inventory_lot_foundation": true,
+  "analyzer_lis_integration": false
+}

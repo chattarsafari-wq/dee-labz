@@ -1,0 +1,34 @@
+DLAB WINDOWS INSTALLATION
+=========================
+
+REQUIREMENTS
+- Windows 10/11
+- XAMPP with PHP 8.2+ and MySQL/MariaDB
+- Composer
+
+INSTALL
+1. Start Apache and MySQL from XAMPP.
+2. Extract this ZIP to a folder such as C:\xampp\htdocs\dlab.
+3. Right-click INSTALL_DLAB.bat -> Run as administrator (recommended).
+4. Enter the MySQL root password when asked. Press Enter if root has no password.
+5. Wait for "INSTALLATION COMPLETE".
+6. Run START_DLAB.bat.
+7. Open http://127.0.0.1:8000
+
+DATABASE
+Name: dlab
+Host: 127.0.0.1
+Port: 3306
+User: root
+
+DEMO LOGINS
+Admin       admin@dlab.local       DlabAdmin@2026!
+Reception   reception@dlab.local   DlabReception@2026!
+Technician  technician@dlab.local  DlabTech@2026!
+Pathologist pathologist@dlab.local DlabPath@2026!
+Cashier     cashier@dlab.local     DlabCashier@2026!
+
+IMPORTANT
+These are demo/local credentials. Change them before production use.
+For production set APP_ENV=production and APP_DEBUG=false, configure a dedicated DB user,
+and configure real mail/SMS/WhatsApp/payment provider credentials.
